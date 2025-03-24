@@ -18114,8 +18114,22 @@ button,
   height: 15px;
 }
 
+.badge-bg {
+  padding: 5px 12px;
+}
+.badge-bg.white-bg {
+  background: rgba(255, 255, 255, 0.2);
+}
+.badge-bg.dark-bg {
+  background: rgba(60, 57, 56, 0.2);
+}
+
 .why-us-section .why-us-img {
   height: 437px;
+}
+
+.help-hero-section {
+  min-height: 685px;
 }
 
 .hero-section .hero-content {

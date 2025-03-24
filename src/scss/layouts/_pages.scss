@@ -4,6 +4,7 @@
         color: $color-E8E8E8;
     }
 }
+
 .Left-right-section {
     height: 784px;
 
@@ -24,5 +25,15 @@
                 height: 15px;
             }
         }
+    }
+}
+
+.badge-bg{
+    padding: 5px 12px;
+    &.white-bg{
+        background:rgba($color: $white, $alpha: $opacity20) ;
+    }
+    &.dark-bg{
+        background:rgba($color: $color-3C3938, $alpha: $opacity20) ;
     }
 }
