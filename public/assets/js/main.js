@@ -20436,6 +20436,7 @@ var Plugins = /*#__PURE__*/function () {
     value: function init() {
       this.LatestHelpAdviceSlider();
       this.TestimonialSlider();
+      this.BlogOpen();
     }
   }, {
     key: "LatestHelpAdviceSlider",
@@ -20448,6 +20449,19 @@ var Plugins = /*#__PURE__*/function () {
         arrows: true,
         prevArrow: ".help-advice-section .prev-arrow",
         nextArrow: ".help-advice-section .next-arrow"
+      });
+    }
+  }, {
+    key: "BlogOpen",
+    value: function BlogOpen() {
+      $('.blog-open-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        infinite: false,
+        arrows: true,
+        prevArrow: ".blog-open-content-section .prev-arrow",
+        nextArrow: ".blog-open-content-section .next-arrow"
       });
     }
   }, {

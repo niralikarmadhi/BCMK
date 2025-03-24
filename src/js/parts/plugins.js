@@ -1,14 +1,15 @@
 import "slick-carousel";
 
 export class Plugins {
-	init() {
-		this.LatestHelpAdviceSlider();
-		this.TestimonialSlider();
-	}
+    init() {
+        this.LatestHelpAdviceSlider();
+        this.TestimonialSlider();
+        this.BlogOpen();
+    }
 
-	LatestHelpAdviceSlider() {
+    LatestHelpAdviceSlider() {
         $('.help-advice-slider').slick({
-            slidesToShow:3,
+            slidesToShow: 3,
             slidesToScroll: 1,
             dots: true,
             infinite: false,
@@ -17,27 +18,38 @@ export class Plugins {
             nextArrow: ".help-advice-section .next-arrow",
         })
     }
-	TestimonialSlider() {
+    BlogOpen() {
+        $('.blog-open-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: false,
+            arrows: true,
+            prevArrow: ".blog-open-content-section .prev-arrow",
+            nextArrow: ".blog-open-content-section .next-arrow",
+        })
+    }
+    TestimonialSlider() {
 
         function animateActiveDot() {
             $('.testimonial-slider .slick-dots li').removeClass('animate-dot');
             $('.testimonial-slider .slick-dots li.slick-active').addClass('animate-dot');
         }
-        
-        $('.testimonial-slider').on('init', function(event, slick){
+
+        $('.testimonial-slider').on('init', function (event, slick) {
             animateActiveDot();
         });
-        
-        $('.testimonial-slider').on('afterChange', function(event, slick, currentSlide){
-            animateActiveDot(); 
+
+        $('.testimonial-slider').on('afterChange', function (event, slick, currentSlide) {
+            animateActiveDot();
         });
-        
+
         $('.testimonial-slider').slick({
-            slidesToShow:1,
+            slidesToShow: 1,
             dots: true,
             infinite: true,
-            autoplay:true,
-            autoplaySpeed:3000,
+            autoplay: true,
+            autoplaySpeed: 3000,
             arrows: true,
             slidesToScroll: 1,
             prevArrow: ".testimonial-section .prev-arrow",

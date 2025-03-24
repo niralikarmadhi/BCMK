@@ -54,6 +54,7 @@
         .slick-dots {
             padding-top: 80px;
             position: initial;
+
             li {
 
                 display: block;
@@ -98,21 +99,8 @@
             }
         }
 
-
-        
     }
 
-    .slick-arrow {
-        height: 45px;
-        width: 45px;
-        border: 1px solid $color-EB6428;
-        border-radius: 3px;
-
-        &.slick-disabled {
-            opacity: 0.5;
-        }
-    }
-    
     &.dark-bg {
         .slick-dots {
             li {
@@ -123,5 +111,26 @@
                 }
             }
         }
+    }
+}
+
+
+.testimonial-section,
+.blog-open-content-section {
+    .slick-arrow {
+        height: 45px;
+        width: 45px;
+        border: 1px solid $color-EB6428;
+        border-radius: 3px;
+
+        &.slick-disabled {
+            opacity: 0.5;
+        }
+    }
+}
+
+.blog-open-slider {
+    .slick-list {
+        height: 610px;
     }
 }

@@ -1,3 +1,14 @@
-.help-hero-section{
+.help-hero-section {
     min-height: 685px;
+}
+
+
+.hero-section {
+    .hero-content {
+        height: calc(100% - 80px);
+    }
+}
+
+.sub-hero-section {
+    height: 596px;
 }

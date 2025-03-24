@@ -17774,6 +17774,10 @@ body {
   letter-spacing: -0.28px;
 }
 
+.space-0_32 {
+  letter-spacing: -0.32px;
+}
+
 .space-0_35 {
   letter-spacing: -0.35px;
 }
@@ -17992,19 +17996,20 @@ button,
   height: 38px;
 }
 
+.card-arrow {
+  height: 45px;
+  width: 45px;
+  border: 1px solid #EB6428;
+}
+.card-arrow img {
+  height: 12px;
+}
+
 .latest-cards {
   background-color: rgba(107, 107, 107, 0.15);
 }
 .latest-cards .latest-card-img {
   height: 332px;
-}
-.latest-cards .card-arrow {
-  height: 45px;
-  width: 45px;
-  border: 1px solid #EB6428;
-}
-.latest-cards .card-arrow img {
-  height: 12px;
 }
 .latest-cards .category {
   background-color: rgba(255, 255, 255, 0.3);
@@ -18096,17 +18101,24 @@ button,
   transition: width 3s linear;
   opacity: 1;
 }
-.testimonial-section .slick-arrow {
+.testimonial-section.dark-bg .slick-dots li.slick-active.animate-dot {
+  background-color: #E8E8E8;
+}
+
+.testimonial-section .slick-arrow,
+.blog-open-content-section .slick-arrow {
   height: 45px;
   width: 45px;
   border: 1px solid #EB6428;
   border-radius: 3px;
 }
-.testimonial-section .slick-arrow.slick-disabled {
+.testimonial-section .slick-arrow.slick-disabled,
+.blog-open-content-section .slick-arrow.slick-disabled {
   opacity: 0.5;
 }
-.testimonial-section.dark-bg .slick-dots li.slick-active.animate-dot {
-  background-color: #E8E8E8;
+
+.blog-open-slider .slick-list {
+  height: 610px;
 }
 
 .dark-bg {
@@ -18140,6 +18152,13 @@ button,
 }
 .blog-open-content-section .investing-links .social-icon {
   height: 38px;
+}
+.blog-open-content-section .blog-open-img {
+  height: 610px;
+}
+
+.next-post-section .next-post-img {
+  height: 378px;
 }
 
 .help-hero-section {

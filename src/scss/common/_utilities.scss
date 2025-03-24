@@ -216,6 +216,10 @@
     letter-spacing: $space-0_28;
 }
 
+.space-0_32 {
+    letter-spacing: $space-0_32;
+}
+
 .space-0_35 {
     letter-spacing: $space-0_35;
 }
@@ -264,162 +268,162 @@
 
 
 
-@include media-breakpoint-down(lg){
-    
-.res-font11 {
-    font-size: $font11;
-}
+@include media-breakpoint-down(lg) {
 
-.res-font12 {
-    font-size: $font12;
-}
+    .res-font11 {
+        font-size: $font11;
+    }
 
-.res-font14 {
-    font-size: $font14;
-}
+    .res-font12 {
+        font-size: $font12;
+    }
 
-.res-font16 {
-    font-size: $font16;
-}
+    .res-font14 {
+        font-size: $font14;
+    }
 
-.res-font18 {
-    font-size: $font18;
-}
+    .res-font16 {
+        font-size: $font16;
+    }
 
-.res-font20 {
-    font-size: $font20;
-}
+    .res-font18 {
+        font-size: $font18;
+    }
 
-.res-font22 {
-    font-size: $font22;
-}
+    .res-font20 {
+        font-size: $font20;
+    }
 
-.res-font24 {
-    font-size: $font24;
-}
+    .res-font22 {
+        font-size: $font22;
+    }
 
-.res-font26 {
-    font-size: $font26;
-}
+    .res-font24 {
+        font-size: $font24;
+    }
 
-.res-font28 {
-    font-size: $font28;
-}
+    .res-font26 {
+        font-size: $font26;
+    }
 
-.res-font35 {
-    font-size: $font35;
-}
+    .res-font28 {
+        font-size: $font28;
+    }
 
-.res-font38 {
-    font-size: $font38;
-}
+    .res-font35 {
+        font-size: $font35;
+    }
 
-.res-font45 {
-    font-size: $font45;
-}
+    .res-font38 {
+        font-size: $font38;
+    }
 
-.res-font48 {
-    font-size: $font48;
-}
+    .res-font45 {
+        font-size: $font45;
+    }
 
-.res-font55 {
-    font-size: $font55;
-}
+    .res-font48 {
+        font-size: $font48;
+    }
 
-.res-font60 {
-    font-size: $font60;
-}
+    .res-font55 {
+        font-size: $font55;
+    }
 
-.res-leading20 {
-    line-height: $leading20;
-}
+    .res-font60 {
+        font-size: $font60;
+    }
 
-.res-leading24 {
-    line-height: $leading24;
-}
+    .res-leading20 {
+        line-height: $leading20;
+    }
 
-.res-leading26 {
-    line-height: $leading26;
-}
+    .res-leading24 {
+        line-height: $leading24;
+    }
 
-.res-leading28 {
-    line-height: $leading28;
-}
+    .res-leading26 {
+        line-height: $leading26;
+    }
 
-.res-leading30 {
-    line-height: $leading30;
-}
+    .res-leading28 {
+        line-height: $leading28;
+    }
 
-.res-leading35 {
-    line-height: $leading35;
-}
+    .res-leading30 {
+        line-height: $leading30;
+    }
 
-.res-leading42 {
-    line-height: $leading42;
-}
+    .res-leading35 {
+        line-height: $leading35;
+    }
 
-.res-leading46 {
-    line-height: $leading46;
-}
+    .res-leading42 {
+        line-height: $leading42;
+    }
 
-.res-leading50 {
-    line-height: $leading50;
-}
+    .res-leading46 {
+        line-height: $leading46;
+    }
 
-.res-leading52 {
-    line-height: $leading52;
-}
+    .res-leading50 {
+        line-height: $leading50;
+    }
 
-.res-leading55 {
-    line-height: $leading55;
-}
+    .res-leading52 {
+        line-height: $leading52;
+    }
 
-.res-leading67 {
-    line-height: $leading67;
-}
+    .res-leading55 {
+        line-height: $leading55;
+    }
 
-.res-space-0_6 {
-    letter-spacing: $space-0_6;
-}
+    .res-leading67 {
+        line-height: $leading67;
+    }
 
-.res-space-0_12 {
-    letter-spacing: $space-0_12;
-}
+    .res-space-0_6 {
+        letter-spacing: $space-0_6;
+    }
 
-.res-space-0_14 {
-    letter-spacing: $space-0_14;
-}
+    .res-space-0_12 {
+        letter-spacing: $space-0_12;
+    }
 
-.res-space-0_16 {
-    letter-spacing: $space-0_16;
-}
+    .res-space-0_14 {
+        letter-spacing: $space-0_14;
+    }
 
-.res-space0_22 {
-    letter-spacing: $space0_22 ;
-}
+    .res-space-0_16 {
+        letter-spacing: $space-0_16;
+    }
 
-.res-space-0_22 {
-    letter-spacing: $space-0_22;
-}
+    .res-space0_22 {
+        letter-spacing: $space0_22 ;
+    }
 
-.res-space-0_28 {
-    letter-spacing: $space-0_28;
-}
+    .res-space-0_22 {
+        letter-spacing: $space-0_22;
+    }
 
-.res-space-0_35 {
-    letter-spacing: $space-0_35;
-}
+    .res-space-0_28 {
+        letter-spacing: $space-0_28;
+    }
 
-.res-space-0_38 {
-    letter-spacing: $space-0_38;
-}
+    .res-space-0_35 {
+        letter-spacing: $space-0_35;
+    }
 
-.res-space-0_45 {
-    letter-spacing: $space-0_45;
-}
+    .res-space-0_38 {
+        letter-spacing: $space-0_38;
+    }
 
-.res-space-0_55 {
-    letter-spacing: $space-0_55;
-}
+    .res-space-0_45 {
+        letter-spacing: $space-0_45;
+    }
+
+    .res-space-0_55 {
+        letter-spacing: $space-0_55;
+    }
 
 }
