@@ -17924,6 +17924,25 @@ button,
   -webkit-appearance: none !important;
 }
 
+.btnA {
+  height: 60px;
+  border: 1px solid #EB6428;
+  padding-inline: 20px;
+}
+.btnA img {
+  height: 15px;
+  transform: translateX(-10px);
+}
+.btnA:hover img {
+  transform: translateX(0px);
+}
+.btnA.color-white-btn {
+  color: #fff;
+}
+.btnA.color-3C3938-btn {
+  color: #3C3938;
+}
+
 .card-hover .img {
   transform: scale(1);
   transition: 0.3s all ease-in-out;
@@ -17933,7 +17952,7 @@ button,
 }
 
 .hero-section .hero-content {
-  height: calc(100vh - 80px);
+  height: calc(100% - 80px);
 }
 
 /*# sourceMappingURL=main.css.map */

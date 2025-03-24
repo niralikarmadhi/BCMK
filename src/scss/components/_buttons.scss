@@ -6,3 +6,28 @@ button,
     -moz-appearance: none !important;
     -webkit-appearance: none !important;
 }
+
+
+.btnA {
+    height: 60px;
+    border: 1px solid $color-EB6428;
+    padding-inline: 20px;
+
+    img {
+        height: 15px;
+        transform: translateX(-10px);
+    }
+
+    &:hover{
+        img{
+            transform: translateX(0px);
+        }
+    }
+
+    &.color-white-btn {
+        color: $white;
+    }
+    &.color-3C3938-btn {
+        color: $color-3C3938;
+    }
+}
