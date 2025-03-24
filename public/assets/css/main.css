@@ -18118,6 +18118,10 @@ button,
   height: 437px;
 }
 
+.banner-section {
+  height: 430px;
+}
+
 .hero-section .hero-content {
   height: calc(100% - 80px);
 }
