@@ -21,6 +21,10 @@
   height: 100vh;
 }
 
+body{
+  background-color: $color-E8E8E8;
+}
+
 // TEXT OVERFLOW CSS
 .truncate {
   overflow: hidden;

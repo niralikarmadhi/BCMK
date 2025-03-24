@@ -17474,6 +17474,10 @@ textarea {
   height: 100vh;
 }
 
+body {
+  background-color: #E8E8E8;
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -17962,6 +17966,14 @@ button,
   color: #3C3938;
 }
 
+.card-hover .img {
+  transform: scale(1);
+  transition: 0.3s all ease-in-out;
+}
+.card-hover:hover .img {
+  transform: scale(1.1);
+}
+
 .team--card .team--img {
   height: 332px;
 }
@@ -18097,6 +18109,37 @@ button,
   color: #E8E8E8;
 }
 
+.hero-section .hero-content {
+  height: calc(100% - 80px);
+}
+
+.sub-hero-section {
+  height: 596px;
+}
+
+.why-us-section .why-us-img {
+  height: 437px;
+}
+
+.banner-section {
+  height: 430px;
+}
+
+.blog-open-content-section .investing-links {
+  top: 104px;
+}
+.blog-open-content-section .investing-links .share {
+  width: 14px;
+}
+.blog-open-content-section .new-open-img {
+  height: 555px;
+}
+@media (max-width: 991.98px) {
+  .blog-open-content-section .new-open-img {
+    height: 270px;
+  }
+}
+
 .Left-right-section {
   height: 784px;
 }
@@ -18112,22 +18155,6 @@ button,
 }
 .Left-right-section .what-we-offer-group .what-we-offer-option img {
   height: 15px;
-}
-
-.why-us-section .why-us-img {
-  height: 437px;
-}
-
-.banner-section {
-  height: 430px;
-}
-
-.hero-section .hero-content {
-  height: calc(100% - 80px);
-}
-
-.sub-hero-section {
-  height: 596px;
 }
 
 /*# sourceMappingURL=main.css.map */
