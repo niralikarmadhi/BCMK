@@ -1,0 +1,426 @@
+// ============================== bg-color ==============================
+.bg-EB6428 {
+    background-color: $color-EB6428;
+}
+
+.bg-3C3938 {
+    background-color: $color-3C3938;
+}
+
+.bg-E8E8E8 {
+    background-color: $color-E8E8E8;
+}
+
+.bg-707070 {
+    background-color: $color-707070;
+}
+
+.bg-FAFAFA {
+    background-color: $color-FAFAFA;
+}
+
+.bg-6B6B6B {
+    background-color: $color-6B6B6B;
+}
+
+.bg-FFFCF0 {
+    background-color: $color-FFFCF0;
+}
+
+.bg-C4C4C4 {
+    background-color: $color-C4C4C4;
+}
+
+.bg-181818 {
+    background-color: $color-181818;
+}
+
+
+
+.text-EB6428 {
+    color: $color-EB6428;
+}
+
+.text-3C3938 {
+    color: $color-3C3938;
+}
+
+.text-E8E8E8 {
+    color: $color-E8E8E8;
+}
+
+.text-707070 {
+    color: $color-707070;
+}
+
+.text-FAFAFA {
+    color: $color-FAFAFA;
+}
+
+.text-6B6B6B {
+    color: $color-6B6B6B;
+}
+
+.text-FFFCF0 {
+    color: $color-FFFCF0;
+}
+
+.text-C4C4C4 {
+    color: $color-C4C4C4;
+}
+
+.text-181818 {
+    color: $color-181818;
+}
+
+
+
+.font11 {
+    font-size: $font11;
+}
+
+.font12 {
+    font-size: $font12;
+}
+
+.font14 {
+    font-size: $font14;
+}
+
+.font16 {
+    font-size: $font16;
+}
+
+.font18 {
+    font-size: $font18;
+}
+
+.font20 {
+    font-size: $font20;
+}
+
+.font22 {
+    font-size: $font22;
+}
+
+.font24 {
+    font-size: $font24;
+}
+
+.font26 {
+    font-size: $font26;
+}
+
+.font28 {
+    font-size: $font28;
+}
+
+.font35 {
+    font-size: $font35;
+}
+
+.font38 {
+    font-size: $font38;
+}
+
+.font45 {
+    font-size: $font45;
+}
+
+.font48 {
+    font-size: $font48;
+}
+
+.font55 {
+    font-size: $font55;
+}
+
+.font60 {
+    font-size: $font60;
+}
+
+
+.res-leading20 {
+    line-height: $leading20;
+}
+
+.res-leading24 {
+    line-height: $leading24;
+}
+
+.res-leading26 {
+    line-height: $leading26;
+}
+
+.res-leading28 {
+    line-height: $leading28;
+}
+
+.res-leading30 {
+    line-height: $leading30;
+}
+
+.res-leading35 {
+    line-height: $leading35;
+}
+
+.res-leading42 {
+    line-height: $leading42;
+}
+
+.res-leading46 {
+    line-height: $leading46;
+}
+
+.res-leading50 {
+    line-height: $leading50;
+}
+
+.res-leading52 {
+    line-height: $leading52;
+}
+
+.res-leading55 {
+    line-height: $leading55;
+}
+
+.res-leading67 {
+    line-height: $leading67;
+}
+
+.space-0_6 {
+    letter-spacing: $space-0_6;
+}
+
+.res-space-0_12 {
+    letter-spacing: $space-0_12;
+}
+
+.res-space-0_14 {
+    letter-spacing: $space-0_14;
+}
+
+.res-space-0_16 {
+    letter-spacing: $space-0_16;
+}
+
+.res-space0_22 {
+    letter-spacing: $space0_22 ;
+}
+
+.res-space-0_22 {
+    letter-spacing: $space-0_22;
+}
+
+.res-space-0_28 {
+    letter-spacing: $space-0_28;
+}
+
+.res-space-0_35 {
+    letter-spacing: $space-0_35;
+}
+
+.res-space-0_38 {
+    letter-spacing: $space-0_38;
+}
+
+.res-space-0_45 {
+    letter-spacing: $space-0_45;
+}
+
+.res-space-0_55 {
+    letter-spacing: $space-0_55;
+}
+
+
+
+.opacity10 {
+    opacity: $opacity10;
+}
+
+.opacity15 {
+    opacity: $opacity15;
+}
+
+.opacity20 {
+    opacity: $opacity20;
+}
+
+.opacity25 {
+    opacity: $opacity25;
+}
+
+.opacity30 {
+    opacity: $opacity30;
+}
+
+.opacity40 {
+    opacity: $opacity40;
+}
+
+.opacity51 {
+    opacity: $opacity51;
+}
+
+
+
+@include media-breakpoint-down(lg){
+    
+.res-font11 {
+    font-size: $font11;
+}
+
+.res-font12 {
+    font-size: $font12;
+}
+
+.res-font14 {
+    font-size: $font14;
+}
+
+.res-font16 {
+    font-size: $font16;
+}
+
+.res-font18 {
+    font-size: $font18;
+}
+
+.res-font20 {
+    font-size: $font20;
+}
+
+.res-font22 {
+    font-size: $font22;
+}
+
+.res-font24 {
+    font-size: $font24;
+}
+
+.res-font26 {
+    font-size: $font26;
+}
+
+.res-font28 {
+    font-size: $font28;
+}
+
+.res-font35 {
+    font-size: $font35;
+}
+
+.res-font38 {
+    font-size: $font38;
+}
+
+.res-font45 {
+    font-size: $font45;
+}
+
+.res-font48 {
+    font-size: $font48;
+}
+
+.res-font55 {
+    font-size: $font55;
+}
+
+.res-font60 {
+    font-size: $font60;
+}
+
+res-
+.leading20 {
+    line-height: $leading20;
+}
+
+.res-leading24 {
+    line-height: $leading24;
+}
+
+.res-leading26 {
+    line-height: $leading26;
+}
+
+.res-leading28 {
+    line-height: $leading28;
+}
+
+.res-leading30 {
+    line-height: $leading30;
+}
+
+.res-leading35 {
+    line-height: $leading35;
+}
+
+.res-leading42 {
+    line-height: $leading42;
+}
+
+.res-leading46 {
+    line-height: $leading46;
+}
+
+.res-leading50 {
+    line-height: $leading50;
+}
+
+.res-leading52 {
+    line-height: $leading52;
+}
+
+.res-leading55 {
+    line-height: $leading55;
+}
+
+.res-leading67 {
+    line-height: $leading67;
+}
+
+.space-0_6 {
+    letter-spacing: $space-0_6;
+}
+
+.space-0_12 {
+    letter-spacing: $space-0_12;
+}
+
+.space-0_14 {
+    letter-spacing: $space-0_14;
+}
+
+.space-0_16 {
+    letter-spacing: $space-0_16;
+}
+
+.space0_22 {
+    letter-spacing: $space0_22 ;
+}
+
+.space-0_22 {
+    letter-spacing: $space-0_22;
+}
+
+.space-0_28 {
+    letter-spacing: $space-0_28;
+}
+
+.space-0_35 {
+    letter-spacing: $space-0_35;
+}
+
+.space-0_38 {
+    letter-spacing: $space-0_38;
+}
+
+.space-0_45 {
+    letter-spacing: $space-0_45;
+}
+
+.space-0_55 {
+    letter-spacing: $space-0_55;
+}
+
+}

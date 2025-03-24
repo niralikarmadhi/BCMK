@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Albra Light";
+    src: url("../../../public/assets/fonts/Albra Light.otf") format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Albra Regular";
+    src: url("../../../public/assets/fonts/Albra Regular.otf") format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "heebo.regular";
+    src: url("../../../public/assets/fonts/heebo.regular.ttf") format('truetype');
+    font-weight: 400;
+}
+
+
+.albra-light {
+    font-family: "Albra Light";
+}
+
+.albra-reg {
+    font-family: "Albra Regular";
+}
+
+.heebo-reg {
+    font-family: "heebo.regular";
+}
