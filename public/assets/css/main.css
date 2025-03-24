@@ -17991,6 +17991,13 @@ button,
   transform: translateX(5px);
 }
 
+.what-we-offer-cards {
+  border-radius: 4px;
+}
+.what-we-offer-cards .what-we-offer-img {
+  height: 54px;
+}
+
 .Left-right-section {
   height: 784px;
 }
@@ -18014,6 +18021,10 @@ button,
 
 .hero-section .hero-content {
   height: calc(100% - 80px);
+}
+
+.sub-hero-section {
+  height: 596px;
 }
 
 /*# sourceMappingURL=main.css.map */

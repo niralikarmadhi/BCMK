@@ -13,28 +13,39 @@
 
 .latest-cards {
     background-color: rgba($color: $color-6B6B6B, $alpha: 0.15);
+
     .latest-card-img {
         height: 332px;
     }
 
-    .card-arrow{
+    .card-arrow {
         height: 45px;
         width: 45px;
         border: 1px solid $color-EB6428;
-        img{
-            height: 12px;       
+
+        img {
+            height: 12px;
         }
     }
-    .category{
+
+    .category {
         background-color: rgba($color: $white, $alpha: 0.3);
     }
 
-    &:hover{
-        .card-arrow{
-            img{
-                transform: translateX(5px);                
+    &:hover {
+        .card-arrow {
+            img {
+                transform: translateX(5px);
             }
         }
-    
+
+    }
+}
+
+.what-we-offer-cards {
+    border-radius: 4px;
+
+    .what-we-offer-img {
+        height: 54px;
     }
 }
