@@ -32,4 +32,17 @@ button,
     &.color-3C3938-btn {
         color: $color-3C3938;
     }
+
+    &.blog-open-btn {
+        img {
+            height: 15px;
+            transform: translateX(10px);
+        }
+
+        &:hover {
+            img {
+                transform: translateX(0px);
+            }
+        }
+    }
 }

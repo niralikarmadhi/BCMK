@@ -17965,6 +17965,13 @@ button,
 .btnA.color-3C3938-btn {
   color: #3C3938;
 }
+.btnA.blog-open-btn img {
+  height: 15px;
+  transform: translateX(10px);
+}
+.btnA.blog-open-btn:hover img {
+  transform: translateX(0px);
+}
 
 .card-hover .img {
   transform: scale(1);
@@ -18127,17 +18134,10 @@ button,
 
 .blog-open-content-section .investing-links {
   top: 104px;
+  height: calc(100vh - 325px);
 }
-.blog-open-content-section .investing-links .share {
-  width: 14px;
-}
-.blog-open-content-section .new-open-img {
-  height: 555px;
-}
-@media (max-width: 991.98px) {
-  .blog-open-content-section .new-open-img {
-    height: 270px;
-  }
+.blog-open-content-section .investing-links .social-icon {
+  height: 38px;
 }
 
 .Left-right-section {

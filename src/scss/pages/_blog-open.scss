@@ -1,17 +1,9 @@
 .blog-open-content-section {
     .investing-links {
         top: 104px;
-
-        .share {
-            width: 14px;
-        }
-    }
-
-    .new-open-img {
-        height: 555px;
-
-        @include media-breakpoint-down(lg) {
-            height: 270px;
+        height: calc(100vh - 325px);
+        .social-icon{
+            height: 38px;
         }
     }
 }
