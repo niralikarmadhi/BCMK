@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Albra Light";
-    src: url("../../../public/assets/fonts/Albra Light.otf") format('opentype');
+    src: url("../../../public/assets/fonts/albra-Light.otf") format('opentype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Albra Regular";
-    src: url("../../../public/assets/fonts/Albra Regular.otf") format('opentype');
+    src: url("../../../public/assets/fonts/albra-Regular.otf") format('opentype');
     font-weight: 400;
 }
 
 @font-face {
-    font-family: "heebo.regular";
-    src: url("../../../public/assets/fonts/heebo.regular.ttf") format('truetype');
+    font-family: "Heebo-regular";
+    src: url("../../../public/assets/fonts/Heebo-regular.ttf") format('truetype');
     font-weight: 400;
 }
 
@@ -26,5 +26,5 @@
 }
 
 .heebo-reg {
-    font-family: "heebo.regular";
+    font-family: "Heebo-regular";
 }
