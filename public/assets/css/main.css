@@ -18116,12 +18116,14 @@ button,
   color: #E8E8E8;
 }
 
-.hero-section .hero-content {
-  height: calc(100% - 80px);
+.badge-bg {
+  padding: 5px 12px;
 }
-
-.sub-hero-section {
-  height: 596px;
+.badge-bg.white-bg {
+  background: rgba(255, 255, 255, 0.2);
+}
+.badge-bg.dark-bg {
+  background: rgba(60, 57, 56, 0.2);
 }
 
 .why-us-section .why-us-img {
@@ -18138,6 +18140,18 @@ button,
 }
 .blog-open-content-section .investing-links .social-icon {
   height: 38px;
+}
+
+.help-hero-section {
+  min-height: 685px;
+}
+
+.hero-section .hero-content {
+  height: calc(100% - 80px);
+}
+
+.sub-hero-section {
+  height: 596px;
 }
 
 .Left-right-section {

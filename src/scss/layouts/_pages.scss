@@ -6,15 +6,13 @@
     }
 }
 
-.hero-section {
-    .hero-content {
-        height: calc(100% - 80px);
+
+.badge-bg{
+    padding: 5px 12px;
+    &.white-bg{
+        background:rgba($color: $white, $alpha: $opacity20) ;
+    }
+    &.dark-bg{
+        background:rgba($color: $color-3C3938, $alpha: $opacity20) ;
     }
 }
-
-.sub-hero-section {
-    height: 596px;
-}
-
-
-
