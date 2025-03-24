@@ -10,3 +10,31 @@
         }
     }
 }
+
+.latest-cards {
+    background-color: rgba($color: $color-6B6B6B, $alpha: 0.15);
+    .latest-card-img {
+        height: 332px;
+    }
+
+    .card-arrow{
+        height: 45px;
+        width: 45px;
+        border: 1px solid $color-EB6428;
+        img{
+            height: 12px;       
+        }
+    }
+    .category{
+        background-color: rgba($color: $white, $alpha: 0.3);
+    }
+
+    &:hover{
+        .card-arrow{
+            img{
+                transform: translateX(5px);                
+            }
+        }
+    
+    }
+}
