@@ -17531,6 +17531,15 @@ textarea {
   padding-right: 0 !important;
 }
 
+.row8 {
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+.row8 > * {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
 /*******************************************************************************
 ******************************* COLOUR VARIABLES *******************************
 *******************************************************************************/
@@ -17937,6 +17946,7 @@ button,
   height: 60px;
   border: 1px solid #EB6428;
   padding-inline: 20px;
+  border-radius: 2px;
 }
 .btnA img {
   height: 15px;
@@ -17961,6 +17971,27 @@ button,
 
 .testimonial-section .quote-img {
   height: 38px;
+}
+
+.latest-cards {
+  background-color: rgba(107, 107, 107, 0.15);
+}
+.latest-cards .latest-card-img {
+  height: 332px;
+}
+.latest-cards .card-arrow {
+  height: 45px;
+  width: 45px;
+  border: 1px solid #EB6428;
+}
+.latest-cards .card-arrow img {
+  height: 12px;
+}
+.latest-cards .category {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.latest-cards:hover .card-arrow img {
+  transform: translateX(5px);
 }
 
 .help-advice-section .slick-arrows .slick-arrow {
@@ -18057,6 +18088,23 @@ button,
 }
 .dark-bg .text--color {
   color: #E8E8E8;
+}
+
+.Left-right-section {
+  height: 784px;
+}
+.Left-right-section .Left-right-img {
+  height: 784px;
+}
+.Left-right-section .what-we-offer-group .what-we-offer-option {
+  cursor: pointer;
+  border-top: 1px solid rgba(112, 112, 112, 0.25);
+}
+.Left-right-section .what-we-offer-group .what-we-offer-option:last-child {
+  border-bottom: 1px solid rgba(112, 112, 112, 0.25);
+}
+.Left-right-section .what-we-offer-group .what-we-offer-option img {
+  height: 15px;
 }
 
 .why-us-section .why-us-img {
