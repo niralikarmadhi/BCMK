@@ -18147,6 +18147,121 @@ button,
   height: 610px;
 }
 
+.header-main {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.3s ease-in-out;
+}
+.header-main.header-fixed-os {
+  transform: translateY(0px);
+}
+.header-main.hidden {
+  transform: translateY(-160px);
+}
+.header-main.white-bg-header, .header-main.transparent-black-header, .header-main.transparent-black-header.has-header, .header-main.transparent-white-header.has-header, .header-main.transparent-black-header.header-fixed, .header-main.transparent-white-header.header-fixed, .header-main.header-fixed, .header-main.has-header {
+  background-color: white;
+  border-bottom: 1px solid rgba(60, 57, 56, 0.25);
+}
+.header-main.white-bg-header .header-logo .white-logo, .header-main.transparent-black-header .header-logo .white-logo, .header-main.transparent-black-header.has-header .header-logo .white-logo, .header-main.transparent-white-header.has-header .header-logo .white-logo, .header-main.transparent-black-header.header-fixed .header-logo .white-logo, .header-main.transparent-white-header.header-fixed .header-logo .white-logo, .header-main.header-fixed .header-logo .white-logo, .header-main.has-header .header-logo .white-logo {
+  display: none;
+}
+.header-main.white-bg-header .header-logo .black-logo, .header-main.transparent-black-header .header-logo .black-logo, .header-main.transparent-black-header.has-header .header-logo .black-logo, .header-main.transparent-white-header.has-header .header-logo .black-logo, .header-main.transparent-black-header.header-fixed .header-logo .black-logo, .header-main.transparent-white-header.header-fixed .header-logo .black-logo, .header-main.header-fixed .header-logo .black-logo, .header-main.has-header .header-logo .black-logo {
+  display: block;
+}
+.header-main.white-bg-header .nav-menu ul .main-menu a, .header-main.transparent-black-header .nav-menu ul .main-menu a, .header-main.transparent-black-header.has-header .nav-menu ul .main-menu a, .header-main.transparent-white-header.has-header .nav-menu ul .main-menu a, .header-main.transparent-black-header.header-fixed .nav-menu ul .main-menu a, .header-main.transparent-white-header.header-fixed .nav-menu ul .main-menu a, .header-main.header-fixed .nav-menu ul .main-menu a, .header-main.has-header .nav-menu ul .main-menu a {
+  color: #3C3938;
+}
+.header-main.white-bg-header .nav-menu .header-btn a, .header-main.transparent-black-header .nav-menu .header-btn a, .header-main.transparent-black-header.has-header .nav-menu .header-btn a, .header-main.transparent-white-header.has-header .nav-menu .header-btn a, .header-main.transparent-black-header.header-fixed .nav-menu .header-btn a, .header-main.transparent-white-header.header-fixed .nav-menu .header-btn a, .header-main.header-fixed .nav-menu .header-btn a, .header-main.has-header .nav-menu .header-btn a {
+  background-color: rgba(60, 57, 56, 0.1);
+  color: #3C3938;
+}
+.header-main.white-bg-header .nav-menu .header-btn:hover a, .header-main.transparent-black-header .nav-menu .header-btn:hover a, .header-main.transparent-black-header.has-header .nav-menu .header-btn:hover a, .header-main.transparent-white-header.has-header .nav-menu .header-btn:hover a, .header-main.transparent-black-header.header-fixed .nav-menu .header-btn:hover a, .header-main.transparent-white-header.header-fixed .nav-menu .header-btn:hover a, .header-main.header-fixed .nav-menu .header-btn:hover a, .header-main.has-header .nav-menu .header-btn:hover a {
+  background-color: #3c3938;
+  color: #fff !important;
+}
+.header-main.transparent-black-header {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(60, 57, 56, 0.25);
+}
+.header-main.transparent-white-header {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.header-main .header-logo {
+  height: 34px;
+}
+.header-main .header-logo .white-logo {
+  display: block;
+}
+.header-main .header-logo .black-logo {
+  display: none;
+}
+.header-main .nav-menu ul .main-menu {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.header-main .nav-menu ul .main-menu a {
+  color: #fff;
+}
+.header-main .nav-menu ul .main-menu.has-submenu a {
+  position: relative;
+  padding-right: 15px;
+}
+.header-main .nav-menu ul .main-menu.has-submenu a::after {
+  content: "+";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 18px;
+  transform: rotate(0deg);
+  transition: all 0.3s ease-in-out;
+}
+.header-main .nav-menu ul .main-menu.has-submenu.active a::after {
+  transform: rotate(45deg);
+  transition: all 0.3s ease-in-out;
+}
+.header-main .nav-menu ul .main-menu.has-submenu.active .sub-menu {
+  opacity: 100%;
+  visibility: visible;
+  transform: translateY(1px);
+  transition: all 0.3s ease-in-out;
+}
+.header-main .nav-menu ul .main-menu.has-submenu.active .sub-menu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100vw;
+  right: -100vw;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1;
+}
+.header-main .nav-menu ul .main-menu .sub-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+}
+.header-main .nav-menu ul .main-menu .sub-menu li a {
+  color: #3C3938;
+}
+.header-main .nav-menu .header-btn a {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid transparent;
+  padding: 16px 28px;
+  margin-right: 0px !important;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+.header-main .nav-menu .header-btn:hover a {
+  background-color: white;
+  color: #3C3938 !important;
+}
+
 .dark-bg {
   background-color: #3C3938;
 }
