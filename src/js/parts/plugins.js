@@ -49,7 +49,13 @@ export class Plugins {
             dots: false,
             infinite: true,
             arrows: false,
-        })
+            autoplay: true,
+            autoplaySpeed: 0, // No delay between slides
+            speed: 2000, // Slow scrolling speed (6 seconds for full loop)
+            cssEase: 'linear', // Smooth linear scrolling
+            pauseOnHover: false,
+            pauseOnFocus: false,
+        });
     }
 
     TestimonialSlider() {
