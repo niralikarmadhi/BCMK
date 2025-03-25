@@ -1,0 +1,30 @@
+.footer {
+    .social-icon-group {
+        .social-icon {
+            border: 1px solid $color-EB6428;
+            height: 38px;
+            width: 38px;
+            margin-right: 10px;
+
+            &:last-child {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .footer-slider {
+        .footer-slider-img {
+            height: 236px;
+        }
+    }
+
+    .footer-links {
+        border-top: 1px solid $color-707070;
+    }
+
+    .logo-slider {
+        .logo-slider-img {
+            height: 55px;
+        }
+    }
+}

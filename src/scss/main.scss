@@ -43,11 +43,12 @@ $grid-breakpoints: (
 @import "layouts/_header";
 @import "layouts/_footer";
 @import "layouts/_pages";
-@import "pages/_whyUs";
-@import "pages/_whatWeOffer";
-@import "pages/_blog-open";
-@import "pages/contact-us";
 @import "parts/_sub-hero";
 @import "parts/_accordion";
 // pages css
+@import "pages/_blog-open";
+@import "pages/_contact-us";
 @import "pages/_home";
+@import "pages/_privacy";
+@import "pages/_whatWeOffer";
+@import "pages/_whyUs";

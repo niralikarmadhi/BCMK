@@ -5,6 +5,8 @@ export class Plugins {
         this.LatestHelpAdviceSlider();
         this.TestimonialSlider();
         this.BlogOpen();
+        this.FooterSlider();
+        this.LogoSlider();
     }
 
     LatestHelpAdviceSlider() {
@@ -29,8 +31,28 @@ export class Plugins {
             nextArrow: ".blog-open-content-section .next-arrow",
         })
     }
-    TestimonialSlider() {
 
+    FooterSlider() {
+        $('.footer-slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true,
+            arrows: false,
+        })
+    }
+
+    LogoSlider() {
+        $('.logo-slider').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true,
+            arrows: false,
+        })
+    }
+
+    TestimonialSlider() {
         function animateActiveDot() {
             $('.testimonial-slider .slick-dots li').removeClass('animate-dot');
             $('.testimonial-slider .slick-dots li.slick-active').addClass('animate-dot');

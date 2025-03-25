@@ -22,6 +22,12 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: "Heebo-Medium";
+    src: url("../../../public/assets/fonts/Heebo-Medium.ttf") format('truetype');
+    font-weight: 400;
+}
+
 
 .albra-light {
     font-family: "Albra Light";
@@ -35,6 +41,6 @@
     font-family: "Heebo-regular";
 }
 
-.heebo-light {
-    font-family: "Heebo-Light";
+.heebo-medium {
+    font-family: "Heebo-Medium";
 }

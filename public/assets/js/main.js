@@ -20437,6 +20437,8 @@ var Plugins = /*#__PURE__*/function () {
       this.LatestHelpAdviceSlider();
       this.TestimonialSlider();
       this.BlogOpen();
+      this.FooterSlider();
+      this.LogoSlider();
     }
   }, {
     key: "LatestHelpAdviceSlider",
@@ -20462,6 +20464,28 @@ var Plugins = /*#__PURE__*/function () {
         arrows: true,
         prevArrow: ".blog-open-content-section .prev-arrow",
         nextArrow: ".blog-open-content-section .next-arrow"
+      });
+    }
+  }, {
+    key: "FooterSlider",
+    value: function FooterSlider() {
+      $('.footer-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: false,
+        infinite: true,
+        arrows: false
+      });
+    }
+  }, {
+    key: "LogoSlider",
+    value: function LogoSlider() {
+      $('.logo-slider').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        dots: false,
+        infinite: true,
+        arrows: false
       });
     }
   }, {

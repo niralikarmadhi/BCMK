@@ -19,3 +19,30 @@
         height: 378px;
     }
 }
+
+
+
+
+.latest-cards-section {
+    .filter-button-row {
+
+        .filter-button,
+        .blog-filter-button {
+            height: 48px;
+            margin-right: 10px;
+            background-color: transparent;
+            padding-inline: 22px;
+            border: 1px solid $color-C4C4C4;
+            border-radius: 2px;
+
+            &.active {
+                border: 1px solid $color-EB6428 !important;
+
+                &::before {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+}

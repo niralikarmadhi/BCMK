@@ -134,3 +134,15 @@
         height: 610px;
     }
 }
+
+.footer-slider ,
+.logo-slider{
+    .slick-list {
+        overflow: visible !important;
+        margin-inline: -2px;
+
+        .slick-slide {
+            padding-inline: 2px;
+        }
+    }
+}

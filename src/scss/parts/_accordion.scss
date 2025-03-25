@@ -7,6 +7,8 @@
         }
 
         .closet-header {
+            cursor: pointer;
+
             .accordion-close {
                 height: 45px;
             }
@@ -22,14 +24,57 @@
             display: none;
         }
     }
+}
 
-    &.faq-accordion {
+
+.faq-accordion-section {
+    .faq-left-content {
+        top: 160px;
+        height: calc(100vh - 325px);
+    }
+
+    .closet-item {
+        border-top: 1px solid $color-3C3938;
+
+        &:last-child {
+            border-bottom: 1px solid $color-3C3938;
+        }
+    }
+
+    .white {
+        display: none;
+    }
+
+    .faq-heading,
+    .closet-header-title,
+    .accordion-content {
+        color: $color-3C3938;
+    }
+
+    &.dark-accordion-section {
+        background-color: $color-3C3938;
+
         .closet-item {
-            border-top: 1px solid $color-3C3938;
+            border-top: 1px solid $color-ECEBE9;
 
             &:last-child {
-                border-bottom: 1px solid $color-3C3938;
+                border-bottom: 1px solid $color-ECEBE9;
             }
+        }
+
+        .white {
+            display: block;
+        }
+
+        .black {
+            display: none;
+        }
+
+        .faq-heading,
+        .closet-header-title,
+        .accordion-content,
+        .color-3C3938-btn {
+            color: $color-ECEBE9;
         }
     }
 }
