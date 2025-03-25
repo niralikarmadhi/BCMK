@@ -1,0 +1,35 @@
+.closet-accordion {
+    .closet-item {
+        border-top: 1px solid $white;
+
+        &:last-child {
+            border-bottom: 1px solid $white;
+        }
+
+        .closet-header {
+            .accordion-close {
+                height: 45px;
+            }
+
+            &.active {
+                .accordion-close {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+
+        .closet-content {
+            display: none;
+        }
+    }
+
+    &.faq-accordion {
+        .closet-item {
+            border-top: 1px solid $color-3C3938;
+
+            &:last-child {
+                border-bottom: 1px solid $color-3C3938;
+            }
+        }
+    }
+}

@@ -13,6 +13,7 @@ button,
     border: 1px solid $color-EB6428;
     padding-inline: 20px;
     border-radius: 2px;
+    background-color: transparent;
 
     img {
         height: 15px;
@@ -31,6 +32,10 @@ button,
 
     &.color-3C3938-btn {
         color: $color-3C3938;
+    }
+    &.color-ECEBE9-btn {
+        border: 1px solid $color-E8E8E8;
+        color: $color-ECEBE9;
     }
 
     &.blog-open-btn {
